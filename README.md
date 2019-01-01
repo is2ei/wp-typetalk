@@ -15,6 +15,8 @@ Send notifications to Typetalk topics when certain events in WordPress occur. In
 | ------------- | ------------- |
 | [![Build Status](https://travis-ci.org/is2ei/wp-typetalk.svg?branch=master&style=flat-square)][travis] | Travis Build Status |
 
+[travis]: https://travis-ci.org/is2ei/wp-typetalk
+
 ## Description ##
 
 ## Installation ##
