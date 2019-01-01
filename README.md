@@ -2,7 +2,7 @@ WP Typetalk
 =========
 
 **Contributors:** is2ei  
-**Tags:** [typetalk](https://wordpress.org/plugins/search/typetalk/), api, chat, notification  
+**Tags:** [typetalk](https://wordpress.org/plugins/tags/typetalk/), [api](https://wordpress.org/plugins/tags/api/), [chat](https://wordpress.org/plugins/tags/chat/), [notification](https://wordpress.org/plugins/tags/notification/)   
 **Requires at least:**  
 **Tested up to:**  
 **Stable tag:**  
