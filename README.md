@@ -12,6 +12,7 @@ WP Typetalk
 Send notifications to Typetalk topics when certain events in WordPress occur. Inspired by [gedex/wp-slack](https://github.com/gedex/wp-slack)
 
 | Badge | Description |
+| ------------- | ------------- |
 | [![Build Status](hhttps://travis-ci.org/is2ei/wp-typetalk.svg?branch=master&style=flat-square)][travis] | Travis Build Status |
 
 ## Description ##
