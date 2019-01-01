@@ -1,4 +1,5 @@
-# WP Typetalk #
+WP Typetalk
+=========
 
 **Contributors:** is2ei  
 **Tags:** typetalk, api, chat, notification  
@@ -9,6 +10,9 @@
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
 Send notifications to Typetalk topics when certain events in WordPress occur. Inspired by [gedex/wp-slack](https://github.com/gedex/wp-slack)
+
+| Badge | Description |
+| [![Build Status](hhttps://travis-ci.org/is2ei/wp-typetalk.svg?branch=master&style=flat-square)][travis] | Travis Build Status |
 
 ## Description ##
 
