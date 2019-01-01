@@ -21,7 +21,7 @@ class NotifierTest extends WP_UnitTestCase {
     $self     = $this;
 
     $payload = new WP_Typetalk_Event_Payload( array(
-      'endpoint_url' => 'https://typetalk.com/api/v1/topics/102623?typetalkToken=xxxxx',
+      'endpoint_url' => 'https://typetalk.com/api/v1/topics/1234567890?typetalkToken=xxxxx',
       'message'      => 'Test message',
     ) );
 

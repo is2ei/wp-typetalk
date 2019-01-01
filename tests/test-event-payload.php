@@ -16,11 +16,11 @@ class EventPayloadTest extends WP_UnitTestCase {
      */
     public function test_get_url() {
         $payload = new WP_Typetalk_Event_Payload( array(
-            'endpoint_url' => 'https://typetalk.com/api/v1/topics/102623?typetalkToken=xxxxx',
+            'endpoint_url' => 'https://typetalk.com/api/v1/topics/1234567890?typetalkToken=xxxxx',
         ) );
 
         $this->assertEquals(
-            'https://typetalk.com/api/v1/topics/102623?typetalkToken=xxxxx',
+            'https://typetalk.com/api/v1/topics/1234567890?typetalkToken=xxxxx',
             $payload->get_url()
         );
     }

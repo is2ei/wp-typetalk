@@ -24,7 +24,7 @@ class EventManagerTest extends WP_UnitTestCase {
         ) );
 
         $this->setting = array(
-            'endpoint_url' => 'https://typetalk.com/api/v1/topics/102623?typetalkToken=xxxxx',
+            'endpoint_url' => 'https://typetalk.com/api/v1/topics/1234567890?typetalkToken=xxxxx',
             'active'       => true,
             'events'       => array(
                 'post_published'      => 1,
@@ -512,7 +512,7 @@ class EventManagerTest extends WP_UnitTestCase {
         );
 
         $setting = array(
-            'endpoint_url' => 'https://typetalk.com/api/v1/topics/102623?typetalkToken=xxxxx',
+            'endpoint_url' => 'https://typetalk.com/api/v1/topics/1234567890?typetalkToken=xxxxx',
             'active'       => true,
         );
 
@@ -523,7 +523,7 @@ class EventManagerTest extends WP_UnitTestCase {
 
         // Supply priority via setting.
         $setting = array(
-            'endpoint_url' => 'https://typetalk.com/api/v1/topics/102623?typetalkToken=xxxxx',
+            'endpoint_url' => 'https://typetalk.com/api/v1/topics/1234567890?typetalkToken=xxxxx',
             'active'       => true,
             'priority'     => 999,
         );
@@ -545,7 +545,7 @@ class EventManagerTest extends WP_UnitTestCase {
             'message' => 'test',
         );
         $setting = array(
-            'endpoint_url' => 'https://typetalk.com/api/v1/topics/102623?typetalkToken=xxxxx',
+            'endpoint_url' => 'https://typetalk.com/api/v1/topics/1234567890?typetalkToken=xxxxx',
             'active'       => true,
         );
 
