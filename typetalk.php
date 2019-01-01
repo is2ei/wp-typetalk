@@ -18,10 +18,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Author: Issei Horie
  * Author URI:
  * Text Domain: wp-typetalk
- * Domain Path: /languages/
  * License: GPL v2 or later
- * Requires at least:
- * Tested up to:
+ * Requires at least: 4.3
+ * Tested up to: 5.0.2
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
