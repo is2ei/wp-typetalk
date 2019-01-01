@@ -398,12 +398,12 @@ class EventManagerTest extends WP_UnitTestCase {
      */
     protected function _get_new_comment_message( $comment ) {
         return sprintf(
-            '<%1$s|New comment> by *%2$s* on *<%3$s|%4$s>* (_%5$s_)' . "\n" .
+            '[New comment by %1$s](%2$s) on [%3$s](%4$s) (%5$s)' . "\n" .
             '>%6$s',
-            admin_url( "comment.php?c=$comment->comment_ID&action=editcomment" ),
             $comment->comment_author,
-            get_permalink( $comment->comment_post_ID ),
+            admin_url( "comment.php?c=$comment->comment_ID&action=editcomment" ),
             html_entity_decode( get_the_title( $comment->comment_post_ID ), ENT_QUOTES, get_bloginfo( 'charset' ) ),
+            get_permalink( $comment->comment_post_ID ),
             wp_get_comment_status( $comment->comment_ID ),
             preg_replace( "/\n/", "\n>", get_comment_text( $comment->comment_ID ) )
         );
