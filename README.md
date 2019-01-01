@@ -13,7 +13,7 @@ Send notifications to Typetalk topics when certain events in WordPress occur. In
 
 | Badge | Description |
 | ------------- | ------------- |
-| [![Build Status](hhttps://travis-ci.org/is2ei/wp-typetalk.svg?branch=master&style=flat-square)][travis] | Travis Build Status |
+| [![Build Status](https://travis-ci.org/is2ei/wp-typetalk.svg?branch=master&style=flat-square)][travis] | Travis Build Status |
 
 ## Description ##
 
