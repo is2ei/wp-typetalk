@@ -35,9 +35,9 @@ By default, there are two events that can be sent to Typetalk:
 2. Add new bot to your Typetalk topic.
 3. Go to **WP Typetalk** menu in your WordPress to add the integration (make sure you're logged in as an Administrator).
 
-## Frequently Asked Questions ##
-
 ## Screenshots ##
+
+![Add new integration page](assets/screenshot-1.png)
 
 ## Changelog ##
 
