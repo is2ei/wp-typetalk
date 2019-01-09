@@ -116,11 +116,11 @@ class WP_Typetalk_Event_Manager {
                         }
                         return sprintf(
                             /* translators: 1) post author, 2) post title, and 3) URL. */
-                            __( '[New post published by %1$s](%2$s|%3$s)', 'typetalk' ) . "\n" .
+                            __( 'New post published by %1$s' . "\n" . '[%2$s](%3$s)', 'typetalk' ) . "\n" .
                             '> %4$s',
                             get_the_author_meta( 'display_name', $post->post_author ),
-                            get_permalink( $post->ID ),
                             html_entity_decode( get_the_title( $post->ID ), ENT_QUOTES, get_bloginfo( 'charset' ) ),
+                            get_permalink( $post->ID ),
                             $txt
                         );
                     }
@@ -152,11 +152,11 @@ class WP_Typetalk_Event_Manager {
                         }
                         return sprintf(
                             /* translators: 1) post author, 2) post title and 3) URL. */
-                            __( '[New post by %1$s needs review](%2$s|%3$s)', 'typetalk' ) . "\n" .
+                            __( 'New post by %1$s needs review' . "\n" . '[%2$s](%3$s)', 'typetalk' ) . "\n" .
                             '> %4$s',
                             get_the_author_meta( 'display_name', $post->post_author ),
-                            admin_url( sprintf( 'post.php?post=%d&action=edit', $post->ID ) ),
                             html_entity_decode( get_the_title( $post->ID ), ENT_QUOTES, get_bloginfo( 'charset' ) ),
+                            admin_url( sprintf( 'post.php?post=%d&action=edit', $post->ID ) ),
                             $txt
                         );
                     }

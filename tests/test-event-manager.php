@@ -214,11 +214,11 @@ class EventManagerTest extends WP_UnitTestCase {
             wp_trim_words( strip_shortcodes( $post->post_content ), 55, '&hellip;' );
 
         return sprintf(
-            '[New post published by %1$s](%2$s|%3$s)' . "\n" .
+            'New post published by %1$s' . "\n" . '[%2$s](%3$s)' . "\n" .
             '> %4$s',
             get_the_author_meta( 'display_name', $post->post_author ),
-            get_permalink( $post->ID ),
             html_entity_decode( get_the_title( $post->ID ), ENT_QUOTES, get_bloginfo( 'charset' ) ),
+            get_permalink( $post->ID ),
             html_entity_decode( $excerpt, ENT_QUOTES, get_bloginfo( 'charset' ) )
         );
     }
