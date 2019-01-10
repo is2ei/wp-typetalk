@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Plugin Name: WP Typetalk
  * Plugin URI: 
  * Description: This plugin allows you to send notifications to Typetalk topics when certain events in WordPress occur.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: Issei Horie
  * Author URI:
  * Text Domain: wp-typetalk
@@ -43,3 +43,4 @@ add_action( 'plugins_loaded', function() {
 	$GLOBALS['wp_typetalk'] = new WP_Typetalk_Plugin();
 	$GLOBALS['wp_typetalk']->run( __FILE__ );
 });
+

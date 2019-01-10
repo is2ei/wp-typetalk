@@ -5,7 +5,7 @@ WP Typetalk
 **Tags:** [typetalk](https://wordpress.org/plugins/tags/typetalk/), [api](https://wordpress.org/plugins/tags/api/), [chat](https://wordpress.org/plugins/tags/chat/), [notification](https://wordpress.org/plugins/tags/notification/)   
 **Requires at least:** 4.3  
 **Tested up to:** 5.0.2  
-**Stable tag:** 0.1.0 
+**Stable tag:** 0.1.1
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -40,6 +40,9 @@ By default, there are two events that can be sent to Typetalk:
 ![Add new integration page](assets/screenshot-1.png)
 
 ## Changelog ##
+
+### 0.1.1 ###
+Fix markdown link
 
 ### 0.1.0 ###
 Initial release

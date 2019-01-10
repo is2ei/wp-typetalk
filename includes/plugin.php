@@ -35,7 +35,7 @@ class WP_Typetalk_Plugin {
 		// filters/actions.
 		$this->name    = 'wp_typetalk';
 		
-		$this->version = '0.1.0';
+		$this->version = '0.1.1';
 
 		// Path.
 		$this->plugin_path   = trailingslashit( plugin_dir_path( $path ) );
@@ -93,3 +93,4 @@ class WP_Typetalk_Plugin {
 		}
 	}	
 }
+
